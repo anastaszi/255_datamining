@@ -14,11 +14,28 @@ After the analysis of missing values I dropped 2 columns with most missing value
 
 ## HW2
 
+[notebook](https://github.com/anastaszi/255_datamining/blob/main/HW2_Dimensionality_Reduction_Technics.ipynb)
+
 2 datasets used: 
 - Breast cancer wisconsin (diagnostic) dataset (Scikit-learn)
 - MNIST digits dataset (openml)
 
 ### Tabular dataset
+
+PCA and SVD: to explain 95% of variability 10 components are needed
+
+![num-components](https://github.com/anastaszi/255_datamining/blob/main/img/num-components.png)
+
+![elbow](https://github.com/anastaszi/255_datamining/blob/main/img/elbox.png)
+
+2 components comparison
+![psa](https://github.com/anastaszi/255_datamining/blob/main/img/psa.png)
+![svd](https://github.com/anastaszi/255_datamining/blob/main/img/svd.png)
+![tsne](https://github.com/anastaszi/255_datamining/blob/main/img/tsne.png)
+![umap](https://github.com/anastaszi/255_datamining/blob/main/img/umap.png)
+![lle](https://github.com/anastaszi/255_datamining/blob/main/img/lle.png)
+![isomap](https://github.com/anastaszi/255_datamining/blob/main/img/isomap.png)
+
 
 ### Image dataset
 
