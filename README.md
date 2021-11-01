@@ -26,10 +26,10 @@ PCA and SVD: to explain 95% of variability 10 components are needed
 
 ![num-components](https://github.com/anastaszi/255_datamining/blob/main/img/num-components.png)
 
-![elbow](https://github.com/anastaszi/255_datamining/blob/main/img/elbox.png)
+![elbow](https://github.com/anastaszi/255_datamining/blob/main/img/elbow.png)
 
 2 components comparison
-![psa](https://github.com/anastaszi/255_datamining/blob/main/img/psa.png)
+![psa](https://github.com/anastaszi/255_datamining/blob/main/img/pca.png)
 ![svd](https://github.com/anastaszi/255_datamining/blob/main/img/svd.png)
 ![tsne](https://github.com/anastaszi/255_datamining/blob/main/img/tsne.png)
 ![umap](https://github.com/anastaszi/255_datamining/blob/main/img/umap.png)
