@@ -56,3 +56,36 @@ UMAP and t-SNE demostrates better results compared to ISOMAP and LLE
 
 ![isomap](https://github.com/anastaszi/255_datamining/blob/main/img/img-isomap.png)
 
+## HW3
+
+[notebook]()
+
+Comparison of custom and original sklearn Kmeans model: 
+
+![kmeans](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_kmeans.png)
+
+Different clustering models were used to reduce number of colors for a given image 
+
+Here is an original image and a new one created based on the centroid colors resulted from appling custom Kmeans model to the image.
+
+![kmeans_image](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_pic2.png)
+
+The problem of the hierarchical clustering (Agglomerative) is that it is doesn't work on large data sets.
+And our current reshaped image has more than 1bln rows. \
+In order to proceed I took another image (smaller one) and used only unique color values.
+
+![agglomerative](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_pic1.png)
+
+Results of GMM for color compression: 
+
+![gmm](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_pic3.png)
+
+To work with PyCaret and DBSCAN I used another dataset: built-in dataset from Pycaret of reactions on different facebook posts.
+
+Bellow are visualizations of 3d clustering results for DBSCAN (resulted in 22 clusters), KMeans (with preset 6 cluster), KMeans (with preset of 22 clusters):
+
+![dbscan](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_tsne_dbscan_pycaret.png)
+
+![kmeans6](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_tsne_kmeans6_pycaret.png)
+
+![kmeans22](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_tsne_kmeans22_pycaret.png)
