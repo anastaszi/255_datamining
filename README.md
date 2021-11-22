@@ -78,7 +78,7 @@ In order to proceed I took another image (smaller one) and used only unique colo
 
 Results of GMM for color compression: 
 
-![gmm](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_pic3.png)
+![gmm](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_pic3.jpg)
 
 To work with PyCaret and DBSCAN I used another dataset: built-in dataset from Pycaret of reactions on different facebook posts.
 
