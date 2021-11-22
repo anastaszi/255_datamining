@@ -86,6 +86,6 @@ Bellow are visualizations of 3d clustering results for DBSCAN (resulted in 22 cl
 
 ![dbscan](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_tsne_dbscan_pycaret.png)
 
-![kmeans6](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_tsne_kmeans6_pycaret.png)
+![kmeans6](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_tsne_kmeans_pycaret.png)
 
 ![kmeans22](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_tsne_kmeans22_pycaret.png)
