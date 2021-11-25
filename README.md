@@ -3,6 +3,7 @@
 [Homework2](#hw2) \
 [Homework3](#hw3) 
 
+***
 # HW1
 [notebook](https://github.com/anastaszi/255_datamining/blob/main/HW1_AnastasiaZimina.ipynb)
 
@@ -16,6 +17,7 @@ To get more insights about the data I checked types of data in the columns as we
 
 After the analysis of missing values I dropped 2 columns with most missing values and also dropped 'Country' columns
 
+***
 # HW2
 
 [notebook](https://github.com/anastaszi/255_datamining/blob/main/HW2_Dimensionality_Reduction_Technics.ipynb)
@@ -60,6 +62,7 @@ UMAP and t-SNE demostrates better results compared to ISOMAP and LLE
 
 ![isomap](https://github.com/anastaszi/255_datamining/blob/main/img/img-isomap.png)
 
+***
 # HW3
 
 [notebook](https://github.com/anastaszi/255_datamining/blob/main/HW3_Anastasia_Zimina.ipynb)
