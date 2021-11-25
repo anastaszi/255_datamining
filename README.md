@@ -58,7 +58,7 @@ UMAP and t-SNE demostrates better results compared to ISOMAP and LLE
 
 ## HW3
 
-[notebook]()
+[notebook](https://github.com/anastaszi/255_datamining/blob/main/HW3_Anastasia_Zimina.ipynb)
 
 Comparison of custom and original sklearn Kmeans model: 
 
