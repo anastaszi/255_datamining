@@ -1,7 +1,7 @@
 # Assignments
-[Homework1](#hw1)
-[Homework2](#hw2)
-[Homework3](#hw3)
+[Homework1](#hw1) \
+[Homework2](#hw2) \
+[Homework3](#hw3) \
 
 # HW1
 [notebook](https://github.com/anastaszi/255_datamining/blob/main/HW1_AnastasiaZimina.ipynb)
