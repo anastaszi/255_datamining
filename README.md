@@ -105,9 +105,13 @@ Bellow are visualizations of 3d clustering results for DBSCAN (resulted in 22 cl
 
 ## LSH
 
-Library: **MinHashLSHForest** from [datasketch](http://ekzhu.com/datasketch/lshforest.html)
-Dataset: [Indian Food Receipts](https://www.kaggle.com/nehaprabhavalkar/indian-food-101)
+Library: **MinHashLSHForest** from [datasketch](http://ekzhu.com/datasketch/lshforest.html) \
+Dataset: [Indian Food Receipts](https://www.kaggle.com/nehaprabhavalkar/indian-food-101) \
 Task: Recommendation Engine of Similar Dishes based on ingredients
+
+```
+Query for ingredients = 'sugar, milk'
+```
 
 ```
 It took 0.008231878280639648 seconds to query forest.
@@ -121,4 +125,85 @@ It took 0.008231878280639648 seconds to query forest.
 56         Basundi            Sugar, milk, nuts
 ```
 
-## 
+## Exhaustive search
+
+Library: **faiss** by [Facebook](https://github.com/facebookresearch/faiss) [IndexFlatL2] \
+Dataset: [News Headlines Dataset For Sarcasm Detection](https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection?select=Sarcasm_Headlines_Dataset_v2.json) \
+Task: Find Similar Articles' Headlines
+
+```
+The most similar movies to banksy returns to new york city with one of his trademark rats are:
+* banksy returns to new york city with one of his trademark rats
+* new documentary makes the case for supervised heroin injection sites in new york
+* tony hale reveals the new york inspiration for buster bluth's personality
+* giuliani spotted sleeping on new york city subway
+* russell simmons leads 'i am a muslim too' rally in new york
+* find lead paint violations in new york city neighborhoods
+* watch live: bernin up nyc dance party in brooklyn, new york
+* congressman says new york city gunman got 'raw deal'
+* george and amal cloney are a vision in nyc
+* kasich hastily paints name on side of skyscraper in attempt to woo new york voters
+```
+
+## Product Quantization
+
+Library: **faiss** by [Facebook](https://github.com/facebookresearch/faiss) [IndexFlatL2, IndexIVFPQ] \
+Dataset: [Medium articles dataset for 2020](https://www.kaggle.com/shlokramteke/sdfadgdadfda) \
+Task: Find Similar Meduim Articles
+
+```
+Similar Meduim articles for Android’s ImageView scale type cheatsheet
+['Android Gradle Build Configuration',
+ 'How to Deploy Your Qt Cross-Platform Applications to\xa0Android',
+ 'Generating DeepLinks at compile time\xa0Android',
+ 'Android Notifications#1: Creating Basic Notifications',
+ 'Getting Started With Android\xa0Testing',
+ 'Modern Android Development',
+ 'Creating a Kotlin Android rotary\xa0knob',
+ 'Build A Simple Calculator Application For Android Using Kotlin And Android\xa0Studio',
+ 'How to Create a Stopwatch in\xa0Android?',
+ 'Android’s ImageView scale type cheatsheet']
+```
+
+
+## Trees and Graphs
+
+Library: **annoy** by [Spotify](https://github.com/spotify/annoy) and it's implementation in gensim \
+Dataset: [Corpus of English Sayings and Phrases](https://www.kaggle.com/bryanb/phrases-and-sayings) \
+Task: Find Similar English Sayings and Phrases
+
+```
+Approximate Neighbors for the phrase: Act the giddy goat
+
+Magical realism
+Fits and starts
+Faint-hearted
+Has the cat got your tongue?
+Ace in the hole
+Knock off
+Bite the dust
+Game is afoot - The 
+Johnny on the spot
+Charm offensive
+House divided against itself cannot stand - A 
+```
+
+## Hierarchical Navigable Small World Graphs
+
+Library: [**nmslib**](https://github.com/nmslib/nmslib) \
+Dataset: [Movielens](https://www.kaggle.com/grouplens/movielens-20m-dataset?select=movie.csv) \
+Task: Recommendation Engine of Similar Movies based on tags
+
+```
+Similar movies for Dangerous Minds (1995)
+['Cry, the Beloved Country (1995)',
+ 'Is Anybody There? (2008)',
+ 'Little Lord Fauntleroy (1936)',
+ "Matthew's Days (1968)",
+ 'The End of the Tour (2015)',
+ 'The Old Maid (1939)',
+ 'Babylon XX (1979)',
+ 'The Sea Vultures (1915)',
+ 'The Monastery of Sendomir (1920)',
+ 'Night Editor (1946)']
+```
