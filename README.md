@@ -102,3 +102,23 @@ Bellow are visualizations of 3d clustering results for DBSCAN (resulted in 22 cl
 # HW4
 
 [notebook](https://github.com/anastaszi/255_datamining/blob/main/HW4_Anastasia_Zimina.ipynb)
+
+## LSH
+
+Library: **MinHashLSHForest** from [datasketch](http://ekzhu.com/datasketch/lshforest.html)
+Dataset: [Indian Food Receipts](https://www.kaggle.com/nehaprabhavalkar/indian-food-101)
+Task: Recommendation Engine of Similar Dishes based on ingredients
+
+```
+It took 0.008231878280639648 seconds to query forest.
+
+ Top Recommendation(s) is(are) 
+               name                  ingredients
+8         Kalakand  Milk, cottage cheese, sugar
+11           Lassi    Yogurt, milk, nuts, sugar
+43  Kakinada khaja           Wheat flour, sugar
+21   Chhena kheeri          Chhena, sugar, milk
+56         Basundi            Sugar, milk, nuts
+```
+
+## 
