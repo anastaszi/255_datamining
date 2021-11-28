@@ -1,7 +1,8 @@
 # Assignments
 [Homework1](#hw1) \
 [Homework2](#hw2) \
-[Homework3](#hw3) 
+[Homework3](#hw3) \
+[Homework4](#hw4)
 
 ***
 # HW1
@@ -96,3 +97,8 @@ Bellow are visualizations of 3d clustering results for DBSCAN (resulted in 22 cl
 ![kmeans6](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_tsne_kmeans_pycaret.png)
 
 ![kmeans22](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_tsne_kmeans22_pycaret.png)
+
+***
+# HW4
+
+[notebook](https://github.com/anastaszi/255_datamining/blob/main/HW4_Anastasia_Zimina.ipynb)
