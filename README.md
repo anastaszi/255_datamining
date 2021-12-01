@@ -1,3 +1,6 @@
+# Story:
+[Medium Link](https://medium.com/@nastyazimina/fashion-meets-computer-vision-df8fe61f6cd8)
+
 # Assignments
 [Homework1](#hw1) \
 [Homework2](#hw2) \
