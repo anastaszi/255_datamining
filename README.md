@@ -5,7 +5,8 @@
 [Homework1](#hw1) \
 [Homework2](#hw2) \
 [Homework3](#hw3) \
-[Homework4](#hw4)
+[Homework4](#hw4) \
+[Homework5](#hw5)
 
 ***
 # HW1
@@ -34,17 +35,17 @@ After the analysis of missing values I dropped 2 columns with most missing value
 
 PCA and SVD: to explain 95% of variability 10 components are needed
 
-![num-components](https://github.com/anastaszi/255_datamining/blob/main/img/num-components.png)
+![num-components](/img/num-components.png)
 
-![elbow](https://github.com/anastaszi/255_datamining/blob/main/img/elbow.png)
+![elbow](/img/elbow.png)
 
 2 components comparison
-![psa](https://github.com/anastaszi/255_datamining/blob/main/img/pca.png)
-![svd](https://github.com/anastaszi/255_datamining/blob/main/img/svd.png)
-![tsne](https://github.com/anastaszi/255_datamining/blob/main/img/tsne.png)
-![umap](https://github.com/anastaszi/255_datamining/blob/main/img/umap.png)
-![lle](https://github.com/anastaszi/255_datamining/blob/main/img/lle.png)
-![isomap](https://github.com/anastaszi/255_datamining/blob/main/img/isomap.png)
+![psa](img/pca.png)
+![svd](img/svd.png)
+![tsne](img/tsne.png)
+![umap](img/umap.png)
+![lle](img/lle.png)
+![isomap](img/isomap.png)
 
 
 ### Image dataset
@@ -52,19 +53,19 @@ PCA and SVD: to explain 95% of variability 10 components are needed
 PCA and SVD were used for dimensionality reduction and image compession. Both processes demonstrated almost identical results.
 Number of features was reduced from 256  to 35 \
 Original vs PCA-compressed vs SVD-compressed
-![PCA](https://github.com/anastaszi/255_datamining/blob/main/img/img-pca.png)
+![PCA](img/img-pca.png)
 
 Visual comparison of LLE, t-SNE, ISOMAP and UMAP
 
 UMAP and t-SNE demostrates better results compared to ISOMAP and LLE
 
-![tsne](https://github.com/anastaszi/255_datamining/blob/main/img/img-tsne.png)
+![tsne](img/img-tsne.png)
 
-![umap](https://github.com/anastaszi/255_datamining/blob/main/img/img-umap.png)
+![umap](img/img-umap.png)
 
-![lle](https://github.com/anastaszi/255_datamining/blob/main/img/img-lle.png)
+![lle](img/img-lle.png)
 
-![isomap](https://github.com/anastaszi/255_datamining/blob/main/img/img-isomap.png)
+![isomap](img/img-isomap.png)
 
 ***
 # HW3
@@ -73,13 +74,13 @@ UMAP and t-SNE demostrates better results compared to ISOMAP and LLE
 
 Comparison of custom and original sklearn Kmeans model: 
 
-![kmeans](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_kmeans.png)
+![kmeans](img/hw3_kmeans.png)
 
 Different clustering models were used to reduce number of colors for a given image 
 
 Here is an original image and a new one created based on the centroid colors resulted from appling custom Kmeans model to the image.
 
-![kmeans_image](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_pic2.png)
+![kmeans_image](img/hw3_pic2.png)
 
 The problem of the hierarchical clustering (Agglomerative) is that it is doesn't work on large data sets.
 And our current reshaped image has more than 1bln rows. \
@@ -89,17 +90,17 @@ In order to proceed I took another image (smaller one) and used only unique colo
 
 Results of GMM for color compression: 
 
-![gmm](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_pic3.jpg)
+![gmm](img/hw3_pic3.jpg)
 
 To work with PyCaret and DBSCAN I used another dataset: built-in dataset from Pycaret of reactions on different facebook posts.
 
 Bellow are visualizations of 3d clustering results for DBSCAN (resulted in 22 clusters), KMeans (with preset 6 cluster), KMeans (with preset of 22 clusters):
 
-![dbscan](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_tsne_dbscan_pycaret.png)
+![dbscan](img/hw3_tsne_dbscan_pycaret.png)
 
-![kmeans6](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_tsne_kmeans_pycaret.png)
+![kmeans6](img/hw3_tsne_kmeans_pycaret.png)
 
-![kmeans22](https://github.com/anastaszi/255_datamining/blob/main/img/hw3_tsne_kmeans22_pycaret.png)
+![kmeans22](img/hw3_tsne_kmeans22_pycaret.png)
 
 ***
 # HW4
@@ -212,3 +213,17 @@ Similar movies for Dangerous Minds (1995)
 ```
 
 # HW5
+
+## Classifiers:
+Dataset: [Udemy Course Review from Kaggle](https://www.kaggle.com/sabrisangjaya/udemy-course-review?select=udemy+review.csv)
+
+Task: Classify Reviews (bad -> great)
+
+![classif](img/hw5_classifiers.png)
+
+## Regressors:
+Data: [Kaggle Car dataset](https://www.kaggle.com/goyalshalini93/car-data)
+
+Task: Car Price prediction
+
+![regressors](img/hw_5_regressors.png)
