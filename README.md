@@ -6,7 +6,8 @@
 [Homework2](#hw2) \
 [Homework3](#hw3) \
 [Homework4](#hw4) \
-[Homework5](#hw5)
+[Homework5](#hw5) \
+[Homework6](#hw6) 
 
 ***
 # HW1
@@ -213,6 +214,7 @@ Similar movies for Dangerous Minds (1995)
 ```
 
 # HW5
+[notebook](https://github.com/anastaszi/255_datamining/blob/main/HW5_AnastasiaZimina_GradientBoost.ipynb)
 
 ## Classifiers:
 Dataset: [Udemy Course Review from Kaggle](https://www.kaggle.com/sabrisangjaya/udemy-course-review?select=udemy+review.csv)
@@ -227,3 +229,28 @@ Data: [Kaggle Car dataset](https://www.kaggle.com/goyalshalini93/car-data)
 Task: Car Price prediction
 
 ![regressors](img/hw_5_regressors.png)
+
+# HW6
+
+[notebook](https://github.com/anastaszi/255_datamining/blob/main/HW6_Anastasia_Zimina_Apriory.ipynb)
+
+Dataset: [Groceries Dataset from Kaggle](https://www.kaggle.com/heeraldedhia/groceries-dataset)
+
+
+## EDA
+Wordcloud for items from the dataset
+![wordcloud](img/hw_6_wordcloud.png)
+
+Top 25 items
+![top](img/hw_6_top_items.png)
+
+Transaction Encoders in action
+![top](img/hw_6_transaction_encoder.png)
+
+## Apriori
+Results [association rules sorted by confidence]
+![apriori](img/hw_6_apriori.png)
+
+## FpGrowth
+Results [association rules sorted by confidence]
+![fpgrowth](img/hw_6_fpgrowth.png)
