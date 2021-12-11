@@ -7,7 +7,7 @@
 [Homework3](#hw3) \
 [Homework4](#hw4) \
 [Homework5](#hw5) \
-[Homework6](#hw6) 
+[Homework6](#hw6) \
 [Homework7](HW7_Anastasia_Zimina_VERTEX%20AI.pdf) 
 
 ***
